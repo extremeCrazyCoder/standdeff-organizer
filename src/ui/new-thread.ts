@@ -24,17 +24,17 @@ export function createNewTable() {
     if (isUserForumMod()) {
         Log.info("user is forum mod");
         //html elements
-        const settingsBtn = `<input type="button" style="background-image: url(https://dsde.innogamescdn.com/asset/7b986b1a/graphic//buildings/smith.png);
+        const settingsBtn = `<input type="button" style="background-image: url(/graphic/buildings/smith.png);
             background-repeat: no-repeat; width:20px;height:20px; border: none; cursor: pointer; background-color: transparent; margin-left:7px;" class="configbtn">`;
-        let tbBows = game_data.units.includes("archer") ? `<img src="https://dsde.innogamescdn.com/asset/b5d78b17/graphic/unit/unit_archer@2x.png" title="Bogenschütze" alt="" class="" style="width: 15px; height: 15px">
+        let tbBows = game_data.units.includes("archer") ? `<img src="/graphic/unit/unit_archer@2x.png" title="Bogenschütze" alt="" class="" style="width: 15px; height: 15px">
       <input type="text" class="inputBow" style="width:70px;background-color:#EAD5AA">` : "";
         let newPaketLineButton = `<input type="button" class="btn" id="newPaketLine" style="background-image: url('https://media.innogamescdn.com/TribalWars/emoji/274e.png'); background-size: cover; width: 15px; height: 15px; border: none; cursor: pointer; transform: rotate(45deg);">`;
 
-        let configContent = `<br><img src="https://dsde.innogamescdn.com/asset/b5d78b17/graphic/unit/unit_spear@2x.png" title="Speerträger" alt="" class="" style="width: 15px; height: 15px">
+        let configContent = `<br><img src="/graphic/unit/unit_spear@2x.png" title="Speerträger" alt="" class="" style="width: 15px; height: 15px">
 <input type="text" class="inputSpear" style="width:70px;background-color:#EAD5AA;margin-right: 10px">
-<img src="https://dsde.innogamescdn.com/asset/b5d78b17/graphic/unit/unit_sword@2x.png" title="Schwertkämpfer" alt="" class="" style="width: 15px; height: 15px">
+<img src="/graphic/unit/unit_sword@2x.png" title="Schwertkämpfer" alt="" class="" style="width: 15px; height: 15px">
 <input type="text" class="inputSword" style="width:70px;background-color:#EAD5AA;margin-right: 10px">` + tbBows + `
-<img src="https://dsde.innogamescdn.com/asset/b5d78b17/graphic/unit/unit_spy@2x.png" title="Späher" alt="" class="" style="width: 15px; height: 15px">
+<img src="/graphic/unit/unit_spy@2x.png" title="Späher" alt="" class="" style="width: 15px; height: 15px">
 <input type="text" class="inputSpy" style="width:70px;background-color:#EAD5AA;margin-right: 10px">` ;
 
         let config = `<br><div class="configs" style="display: none; width: 95%;margin-left: auto;margin-bottom: 20px;

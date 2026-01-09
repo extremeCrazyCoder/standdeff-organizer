@@ -194,7 +194,7 @@ export function displaySettings() {
                      ${threadData.threadName}
                  </a>
              </td>
-             <td style="text-align: center;"><button style="background: url(https://dsde.innogamescdn.com/asset/c045337f/graphic/delete.png); width: 20px; height: 20px;  border: none" class="delete-thread" data-thread-id="${threadId}"></button></td>
+             <td style="text-align: center;"><button style="background: url(/graphic/delete.png); width: 20px; height: 20px;  border: none" class="delete-thread" data-thread-id="${threadId}"></button></td>
          </tr>`;
 
             $("#activeSdThreads").append(row);
