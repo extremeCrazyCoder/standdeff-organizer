@@ -130,7 +130,7 @@ export function parseSdPosts(): updateData {
     });
 
     // Get the post container
-    const newInquiryRegex = /(\d{3}\|\d{3})\)\sK\d+\s+(\d+)\s+["“](.+)?["“](.+)?["“](.+)?["“](.+)?/; // hier die anführungszeichen für mac hinzufügen todo:
+    const newInquiryRegex = /(\d{3}\|\d{3})\)\sK\d+\s+(\d+)\s+["\u201c](.+)?["\u201c](.+)?["\u201c](.+)?["\u201c](.+)?/; // hier die anführungszeichen für mac hinzufügen todo:
     const packagesSentRegex = /(\d+)\s(\d+|done)/; // evtl noch optimieren todo:
     $(".post").each((index, element) => {
         let packagesSent: packages = new Map<string, string>();

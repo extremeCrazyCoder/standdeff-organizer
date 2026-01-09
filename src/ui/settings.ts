@@ -291,7 +291,7 @@ export function displaySettings() {
         if (!isNaN(value) && value >= 0) {
             localStorageService.setSwordLfz = value;
         } else {
-            Log.error("Ungültiger Wert für Schwert lfz:");
+            Log.error("Ung\u00fcltiger Wert f\u00fcr Schwert lfz:");
             $(this).val(localStorageService.getSwordLfz);
         }
     })
