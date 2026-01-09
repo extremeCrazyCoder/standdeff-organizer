@@ -38,7 +38,7 @@ export function addSdOptions(currentThreadId: string | null){
             "right": "auto",
             "display": "",
         }).addClass("tooltip-style");
-        $("#tooltip > h3").text("SD Tabelle hinzufügen")
+        $("#tooltip > h3").text("SD Tabelle hinzuf\u00fcgen")
     });
     $(".addThread").on("mouseout", function () {
         $("#tooltip").css({

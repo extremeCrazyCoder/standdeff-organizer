@@ -144,7 +144,7 @@ export function sdTable(threads: Threads) {
         Log.info(event.key)
         if (event.key === "standdeff-organizer") {
             // Führen Sie Ihre Aktion aus
-            Log.info('Der Wert von "standdeff-organizer" hat sich geändert!');
+            Log.info('Der Wert von "standdeff-organizer" hat sich ge\u00e4ndert!');
             updateSentPackagesInSdTable();
         }
     });
